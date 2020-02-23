@@ -29,12 +29,18 @@
     background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
 }
+.contact input[type="text"], [type="email"], [type="button"]{
+    margin: 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
 #name{
-    width: 350px;
+    width: 335px;
     padding: 2px;
 }
 #email{
-    width: 350px;
+    width: 335px;
     padding: 2px;
 }
 #message{
@@ -42,14 +48,36 @@
     width: 700px;
     padding: 2px;
 }
-.column{
+.columntwo{
     float: left;
     width: 33%;
     padding-left: 130px;
 }
-
 h2{
     text-align: center;
     font-weight: bold;
+    padding: 20px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-size: contain;
+}
+.social{
+    padding-left: 230px;
+}
+.social img{
     padding: 10px;
 }
+.card-footer{
+    font-family: monospace;
+/* }
+form{
+    background: rgba(0, 0, 0, 0.2);
+} */
