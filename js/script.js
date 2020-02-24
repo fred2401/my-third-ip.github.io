@@ -24,3 +24,9 @@ $(document).ready(function() {
         $(".columntwoshowing3").toggle();
       });
   });
+  
+//   $(".portfolio img").hover(function(){
+//     $(this).css("", "yellow");
+//     }, function(){
+//     $(this).css("background-color", "pink");
+//   });

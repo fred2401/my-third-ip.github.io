@@ -109,6 +109,28 @@ h2{
     padding: 10px;
     background-size: contain;
 }
+.column:hover .image{
+    opacity: 0.5;
+}
+.column:hover .hold{
+    opacity: 1;
+}
+.hold {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text{
+    background-color: solid white;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
 .social{
     padding-left: 230px;
 }
