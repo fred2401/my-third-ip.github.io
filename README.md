@@ -17,7 +17,7 @@ A project to duplicate a website landing page, which required the use of HTML, C
 
       
      
-[Deployed Link](https://fred2401.github.io/second-ip.github.io/the%20Ip/)
+[Deployed Link](https://fred2401.github.io/my-third-ip.github.io/)
        
 _[MIT License](/LICENSE)_
 
