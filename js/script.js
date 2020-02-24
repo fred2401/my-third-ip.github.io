@@ -10,3 +10,23 @@ function data(){
         alert(name+" you have sumitted your message, thank you for the feedback");
     }
 }
+$(document).ready(function() {
+    $("#part1").click(function() {
+      $(".columntwo1").toggle();
+      $(".columntwoshowing1").toggle();
+    });
+    $("#part2").click(function() {
+        $(".columntwo2").toggle();
+        $(".columntwoshowing2").toggle();
+      });
+    $("#part3").click(function() {
+        $(".columntwo3").toggle();
+        $(".columntwoshowing3").toggle();
+      });
+  });
+  
+//   $(".portfolio img").hover(function(){
+//     $(this).css("", "yellow");
+//     }, function(){
+//     $(this).css("background-color", "pink");
+//   });
