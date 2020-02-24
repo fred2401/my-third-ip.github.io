@@ -126,6 +126,10 @@ h2{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+.text{
+    border: 2px solid white;
+    padding: 5px;
+}
 
 .social{
     padding-left: 230px;
