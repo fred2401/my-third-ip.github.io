@@ -10,3 +10,17 @@ function data(){
         alert(name+" you have sumitted your message, thank you for the feedback");
     }
 }
+$(document).ready(function() {
+    $("#part1").click(function() {
+      $(".columntwo").toggle();
+      $(".columntwoshowing").toggle();
+    });
+    $("#part2").click(function() {
+        $(".columntwo").toggle();
+        $(".columntwoshowing").toggle();
+      });
+    $("#part3").click(function() {
+        $(".columntwo").toggle();
+        $(".columntwoshowing").toggle();
+      });
+  });
