@@ -48,12 +48,44 @@
     width: 700px;
     padding: 2px;
 }
-.columntwo{
+.table{
+    border: 2px;
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+}
+.columntwo1{
     float: left;
     width: 33%;
     padding-left: 130px;
 }
-.columntwoshowing{
+.columntwoshowing1{
+    float: left;
+    border: 2px;
+    height: 300px;
+    width: 32%;
+    text-align: center;
+    display: none;
+}
+.columntwo2{
+    float: left;
+    width: 33%;
+    padding-left: 130px;
+}
+.columntwoshowing2{
+    float: left;
+    border: 2px;
+    height: 300px;
+    width: 32%;
+    text-align: center;
+    display: none;
+}
+.columntwo3{
+    float: left;
+    width: 33%;
+    padding-left: 130px;
+}
+.columntwoshowing3{
     float: left;
     border: 2px;
     height: 300px;
