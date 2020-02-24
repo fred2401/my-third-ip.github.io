@@ -108,6 +108,7 @@ h2{
     width: 25%;
     padding: 10px;
     background-size: contain;
+    position: relative;
 }
 .column:hover .image{
     opacity: 0.5;
@@ -125,12 +126,7 @@ h2{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-.text{
-    background-color: solid white;
-    color: black;
-    font-size: 20px;
-    padding: 5px;
-}
+
 .social{
     padding-left: 230px;
 }
